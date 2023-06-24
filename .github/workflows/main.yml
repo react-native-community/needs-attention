@@ -11,13 +11,13 @@ jobs:
   applyNeedsAttentionLabel:
     permissions:
       contents: read # for actions/checkout to fetch code
-      issues: write # for hramos/needs-attention to label issues
+      issues: write # for react-native-community/needs-attention to label issues
     name: Apply Needs Attention Label
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
       - name: Apply Needs Attention Label
-        uses: hramos/needs-attention@v2.0.0-rc.2
+        uses: react-native-community/needs-attention@v2.0.0
         with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
           # response-required-label: 'Needs Author Feedback' # <- Default

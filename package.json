@@ -5,9 +5,9 @@
   "author": "Héctor Ramos, Pranav Yadav",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/hramos/needs-attention/issues"
+    "url": "https://github.com/react-native-community/needs-attention/issues"
   },
-  "homepage": "https://github.com/hramos/needs-attention#readme",
+  "homepage": "https://github.com/react-native-community/needs-attention#readme",
   "main": "lib/index.js",
   "engines": {
     "node": ">=16.0.0"
@@ -21,7 +21,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hramos/needs-attention.git"
+    "url": "git+https://github.com/react-native-community/needs-attention.git"
   },
   "keywords": [
     "actions",

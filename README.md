@@ -1,5 +1,7 @@
 # Label Issues that Need Attention When Author Responds
 
+_Forked from [hramos/needs-attention](https://github.com/hramos/needs-attention)_
+
 Applies a label whenever the original author of an issue adds a comment to an issue that needed their response.
 
 ## How It Works
@@ -42,7 +44,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: Apply Needs Attention Label
-        uses: hramos/needs-attention@v1
+        uses: react-native-community/needs-attention@v1
         with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
 ```
@@ -50,7 +52,7 @@ jobs:
 Configuring labels:
 
 ```
-uses: hramos/needs-attention@v1
+uses: react-native-community/needs-attention@v2.0.0
 with:
     repo-token: ${{ secrets.GITHUB_TOKEN }}
     response-required-label: 'Needs Author Feedback'
